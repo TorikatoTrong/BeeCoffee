@@ -1,4 +1,4 @@
-/**
+﻿/**
 * Template Name: Restaurantly
 * Updated: Sep 20 2023 with Bootstrap v5.3.2
 * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
@@ -835,7 +835,10 @@ section {
   padding-right: 4px;
   color: #cda45e;
 }
-
+.about .content ul span {
+        color: #cda45e;
+        font-weight: bold
+    }
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -929,12 +932,14 @@ section {
 }
 
 .menu .menu-img {
-  width: 70px;
+  width: 200px;
   border-radius: 50%;
   float: left;
   border: 5px solid rgba(255, 255, 255, 0.2);
 }
-
+.menu .menu-title {
+    margin-top: 20px;
+}
 .menu .menu-content {
   margin-left: 85px;
   overflow: hidden;
